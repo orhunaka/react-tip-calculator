@@ -29,7 +29,7 @@ function TipCalculator() {
       {bill > 0 && (
         <>
           <Output bill={bill} tip={tip} />
-          <Reset opnReset={handleReset} />
+          <Reset onReset={handleReset} />
         </>
       )}
     </div>
